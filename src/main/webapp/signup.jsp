@@ -1,6 +1,6 @@
 <html>
   <body>
-  <h1>Sign Up Here</h1>
-<h2>Welcome Page/h2>
+  <h1> Sign Up </h1>
+<h2> Welcome to Idream </h2>
   </body>
   </html>
