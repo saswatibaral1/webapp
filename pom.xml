@@ -6,7 +6,7 @@
 
   <groupId>com.idream.webapp</groupId>
   <artifactId>idream-it-solutions</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>idream-it-solutions</name>
@@ -18,6 +18,19 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>idream</name>
+			<url>http://35.154.15.196:8081/repository/idream/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>idream</name>
+			<url>http://35.154.15.196:8081/repository/idream/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
   <dependencies>
   <dependency>
