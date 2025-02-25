@@ -8,7 +8,7 @@ body {
 }
 
 form {
-	border: 3px solid #f1f1f1;
+	border: 4px solid #f1f1f1;
     margin-top: 10%;
     margin-left: 37%;
     float: left;
