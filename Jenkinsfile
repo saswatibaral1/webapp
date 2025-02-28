@@ -30,7 +30,7 @@ pipeline{
 
 		}
 		}
-   stage("deploy"){
+ /*  stage("deploy"){
 	   steps{
 
       sshagent(['deployment']) {
@@ -51,7 +51,7 @@ pipeline{
 		}
 		  
 	  }
-
+*/
 /*stage(backup)
 		  {
   steps{
