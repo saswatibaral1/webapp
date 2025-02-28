@@ -37,10 +37,10 @@ pipeline{
 
 	        sh """
                  
-            scp -o StrictHostKeyChecking=no target/myweb.war ec2-user@172.31.12.90:/home/ec2-user/tomcat8/webapps/
+            scp -o StrictHostKeyChecking=no target/myweb.war ec2-user@172.31.1.114:/home/ec2-user/tomcat/webapps/
 
-              ssh ec2-user@172.31.1.114 /home/ec2-user/tomcat8/bin/shutdown.sh
-               ssh ec2-user@172.31.1.114 /home/ec2-user/tomcat8/bin/startup.sh
+              ssh ec2-user@172.31.1.114 /home/ec2-user/tomcat/bin/shutdown.sh
+               ssh ec2-user@172.31.1.114 /home/ec2-user/tomcat/bin/startup.sh
             
           
           """
@@ -52,7 +52,7 @@ pipeline{
 		  
 	  }
 
-stage(backup)
+/*stage(backup)
 		  {
   steps{
 
@@ -60,6 +60,6 @@ stage(backup)
 	  
   }
 	
-}
+}*/
 	}
 	}
